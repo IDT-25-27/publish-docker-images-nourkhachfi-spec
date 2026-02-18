@@ -7,8 +7,7 @@ on:
 
 permissions:
   contents: read
-  packages: write
-  jobs:
+  packages: writejobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
