@@ -22,4 +22,4 @@ permissions:
       - name: Build and push Docker image
         run: |
           docker build . --tag ghcr.io/idt-25-27/publish-docker-images-nourkhachfi-spec/stackoverflown:main
-          docker push ghcr.io/idt-25-27/publish-docker-images-nourkhachfi-spec/stackoverflown:main
+          docker push ghcr.io/idt-25-27/publish-docker-images-nourkhachfi-spec/stackoverflown:main 
